@@ -11,11 +11,11 @@ const ports = 3000
 
 // Connecting to mysql server
 const dbConnect = mysql.createConnection({
-    host: 'localhost',
-    port: 3306,
+    host: 'containers-us-west-201.railway.app',
+    port: 7260,
     user: 'root',
-    password: 'sfr030197',
-    database: 'week9'
+    password: 'GIfAVEDDvjfuI9BU7oqw',
+    database: 'railway'
 });
 dbConnect.connect(err => {
     if (err) {
