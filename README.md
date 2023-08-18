@@ -132,6 +132,7 @@ app.listen(ports, () => {
 ```
 
 Run on terminal `npm start`, to start the server.
+
 ![2-start-server](https://github.com/RevoU-FSSE-2/week-9-SuryaFtr/assets/127850712/c62e2f26-b7a3-4dc3-b2a8-be494a81ec63)
 
 ## Making a API routes for CRUD operations on server
@@ -260,11 +261,16 @@ app.delete('/transactions/:id', (request, response) => {
 ![7-delete-transaction-id](https://github.com/RevoU-FSSE-2/week-9-SuryaFtr/assets/127850712/55c2ecd7-86b7-4a13-9915-2d3429c7fcac)
 
 ## Deploy
-Database on railways.app. Deploy Link : 
+Database on railways.app. 
 
+![Deploy-database](https://github.com/RevoU-FSSE-2/week-9-SuryaFtr/assets/127850712/abe91756-8876-45b1-90fe-652cc46605b2)
 
-API on fly.io. Deploy Link : 
+API on app.cyclic.sh 
 
+![Deploy-API-1](https://github.com/RevoU-FSSE-2/week-9-SuryaFtr/assets/127850712/1ecef5b1-cba9-4251-aa3d-e11937839278)
 
+![Deploy-API-2](https://github.com/RevoU-FSSE-2/week-9-SuryaFtr/assets/127850712/4de8de13-682d-46ca-bd35-055b1e6edc7a)
+
+Deploy Link : https://hungry-kerchief-pig.cyclic.cloud/
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/Z42oEjTh)
