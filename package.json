@@ -1,0 +1,25 @@
+{
+  "name": "w9-assign",
+  "version": "1.0.0",
+  "description": "API for Simple Mobile Banking App",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "api",
+    "mobile",
+    "banking",
+    "app"
+  ],
+  "author": "Surya Faturohman",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.2",
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
